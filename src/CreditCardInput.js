@@ -109,7 +109,7 @@ export default class CreditCardInput extends Component {
   render() {
     const {
       cardImageFront, cardImageBack, inputContainerStyle,
-      values: { number, expiry, cvc, name, type }, focused,
+      values: { name, number, expiry, ccv, type }, focused,
       requiresName, requiresCVC, requiresPostalCode,
       cardScale, cardFontFamily
     } = this.props;
